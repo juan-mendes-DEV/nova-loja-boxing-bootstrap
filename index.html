@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio boostrap</title>
+    <link rel="stylesheet" href="./cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_css_bootstrap.min.css">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container-fluid p-0">
+        <div class="row">
+            <div class="col-12">
+                <header id="cabecalho">
+                    <div class="nav navbar navbar-expand-lg ">
+                            <img class="mx-3" src="./img/boxing-gloves-5663343_1280.jpg" style="width: 50px; border-radius: 50%; border: 1px solid black;" alt="luvas de boxe">
+                            <h1><strong>Espaço Da Nobre Arte</strong></h1>
+                            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                                <ul class="nav navbar-nav nav-pills text-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active " href="#inicio">inicio</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#produtos">produtos</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#promocoes">promoções</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="#contato">contato</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " href="https://github.com/juan-mendes-DEV" target="_blank">link git-hub</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        
+                    </div>
+                </header>
+                
+            </div>
+        </div>
+    <div id="banner" class="carousel slide" data-bs-ride="carousel">
+        <div id="indicadores" class="carousel-indicators">
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="2"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="3"></button>
+            <button type="button" data-bs-target="#banner" data-bs-slide-to="4"></button>
+        </div>
+        <div id="imagens" class="carousel-inner">
+            <div class="carousel-item active"><img class="d-block w-100" style="height: 400px;" src="./img/boxer-2894025_1280.jpg" alt="caveira"><div class="carousel-caption">
+                <h5>Nobre arte</h5>
+                <p>foco</p>
+            </div></div>
+            <div class="carousel-item"><img class="d-block w-100" style="height: 400px;" src="./img/boxing-100733_1280.jpg" alt="caveira"><div class="carousel-caption">
+                <h5>Nobre arte</h5>
+                <p>vontade de vencer</p>
+            </div></div>
+            <div class="carousel-item"><img class="d-block w-100" style="height: 400px;" src="./img/boxing-555735_1280.jpg" alt="caveira"><div class="carousel-caption">
+                <h5>Nobre arte</h5>
+                <p>disciplina</p>
+            </div></div>
+            <div class="carousel-item"><img class="d-block w-100" style="height: 400px;" src="./img/girl-boxer-1333600_1280.jpg" alt="caveira"><div class="carousel-caption">
+                <h5>Nobre arte</h5>
+                <p>amor</p>
+            </div></div>
+            <div class="carousel-item"><img class="d-block w-100" style="height: 400px;" src="./img/people-2564757_1280.jpg" alt="caveira"><div class="carousel-caption">
+                <h5>Nobre arte</h5>
+                <p>um estilo de vida</p>
+            </div></div>
+        </div>
+
+        <div id="controles">
+            <button class="carousel-control-prev" data-bs-target="#banner" data-bs-slide="prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" data-bs-target="#banner" data-bs-slide="next" type="button">
+                <span class="carousel-control-next-icon text-info"></span>
+            </button>
+        </div> 
+    </div>
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <section id="inicio">
+        <div class="row">
+            <div class="col-12">
+                <img class="mx-4 float-start" src="./img/sobrenos.jpg" alt="sobre" style="width: 400px; border-radius: 10px 100px 10px 100px;">
+                <h3>sobre nós</h3>
+                <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Est fuga quo tempora quam ratione, animi esse officia consectetur perferendis earum officiis blanditiis impedit odit odio. Ratione quos facilis eum voluptatibus. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio debitis, consectetur cumque vero culpa natus quos odio est accusamus soluta consequatur placeat recusandae quod in laborum nesciunt vitae repellat quisquam! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur inventore numquam debitis in suscipit eaque, sequi repellendus dolores ipsa veniam alias officiis corporis illum tempore repellat reiciendis. Cupiditate, distinctio iusto?</p>
+            </div>
+        </div>
+    </section>
+    <br><br><br>
+    <hr>
+    <section id="produtos">
+        <div class="row d-flex ">
+            <h1 class="text-center my-5">produtos originais de otima qualidade</h1>
+            <div class="col-12 d-flex justify-content-center flex-wrap m-auto">
+                
+                <div class="m-2"><img src="./img/luva1.jpeg" alt="luva-de-boxe">
+                <p>luvas de boxe</p>
+                    <h5> R$ 250</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva2.jpg" alt="luva-de-boxe">
+                <p>luvas de boxe</p>
+                    <h5> R$ 250</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva3.jpg" alt="luva-de-boxe">
+                <p>luvas de boxe</p>
+                    <h5> R$ 250</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva4.jpg" alt="luva-de-boxe">
+                <p>luvas de boxe</p>
+                    <h5> R$ 250</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                
+            </div>
+            <div class="col-12 d-flex justify-content-center flex-wrap m-auto">
+                <div class="m-2"><img src="./img/bucal1.jpg" alt="bucal">
+                <p>bucal</p>
+                    <h5>R$ 50</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal2.jpg" alt="bucal">
+                <p>bucal</p>
+                    <h5>R$ 50</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal3.jpeg" alt="bucal">
+                <p>bucal</p>
+                    <h5>R$ 50</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal4.jpeg" alt="bucal">
+                <p>bucal</p>
+                    <h5>R$ 50</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+            </div>
+            <div class="col-12 d-flex justify-content-center flex-wrap m-auto">
+                <div class="m-2"><img src="./img/sapatilha1.jpeg" alt="sapatilha" style="width: 222px;">
+                <p>sapatilhas</p>
+                    <h5>R$ 200</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha2.jpg" alt="sapatilha">
+                <p>sapatilhas</p>
+                    <h5>R$ 200</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha4.jpg" alt="sapatilha">
+                <p>sapatilhas</p>
+                    <h5>R$ 200</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha4.jpg" alt="sapatilha">
+                <p>sapatilhas</p>
+                    <h5>R$ 200</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="promocoes">
+        <div class="row d-flex ">
+            <h1 class="text-center my-5">produtos originais em promoção</h1>
+            <div class="col-auto d-flex justify-content-center flex-wrap m-auto">
+                <div class="m-2"><img src="./img/luva1.jpeg" alt="luva-de-boxe">
+                    <p>luvas</p>
+                    <h5>R$ 200</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva2.jpg" alt="luva-de-boxe">
+                    <p>luvas</p>
+                    <h5>R$ 200</h5>
+                    <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva3.jpg" alt="luva-de-boxe">
+                    <p>luvas</p>
+                    <h5>R$ 200</h5>
+                    <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/luva4.jpg" alt="luva-de-boxe">
+                    <p>luvas</p>
+                    <h5>R$ 200</h5>
+                    <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                
+            </div>
+            <div class="col-auto d-flex justify-content-center flex-wrap m-auto">
+                <div class="m-2"><img src="./img/bucal1.jpg" alt="bucal">
+                    <p>bucal</p>
+                    <h5>R$ 30</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal2.jpg" alt="bucal">
+                    <p>bucal</p>
+                    <h5>R$ 30</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal3.jpeg" alt="bucal">
+                    <p>bucal</p>
+                    <h5>R$ 30</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/bucal4.jpeg" alt="bucal">
+                    <p>bucal</p>
+                    <h5>R$ 30</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+            </div>
+            <div class="col-auto d-flex justify-content-center flex-wrap m-auto">
+                <div class="m-2"><img src="./img/sapatilha1.jpeg" alt="sapatilha" style="width: 222px;">
+                    <p>sapatilhas</p>
+                    <h5>R$ 150</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha2.jpg" alt="sapatilha">
+                    <p>sapatilhas</p>
+                    <h5>R$ 150</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha4.jpg" alt="sapatilha">
+                    <p>sapatilhas</p>
+                    <h5>R$ 150</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+                <div class="m-2"><img src="./img/sapatilha4.jpg" alt="sapatilha">
+                    <p>sapatilhas</p>
+                    <h5>R$ 150</h5>
+                <button class="btn btn-success w-100">adicionar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br>
+    <hr>
+    <section id="contato">
+        
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <h5 class="h3" id="juan">Entre em contato </h5>
+                        <form>
+                            <label class="form-label" for="nome">seu nome:</label>
+                            <input type="text" class="form-control">
+                            <label class="form-label" for="email">seu email:</label>
+                            <input type="email" class="form-control">
+                            <label class="form-label" for="mensagem">sua mensagem:</label>
+                            <textarea id="mensagem" class="form-control"></textarea>
+                            <div class="form-check form-switch">
+                                <label class="form-check-label" for="aceitoTermos">Li e concordo com os termos do site</label>
+                                <input class="form-check-input" id="aceitoTermos" type="checkbox">
+                            </div>
+                            <button class="btn btn-success mt-3">enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        
+    </section>
+    <div class="row footer mt-3">
+        <div class="col-12">
+            <footer class="">
+                <h5>2023 - &copy; - todos os direitos reservados</h5>
+            </footer>
+        </div>
+    </div>
+</div>
+    <script src="./cdn.jsdelivr.net_npm_bootstrap@5.3.0_dist_js_bootstrap.bundle.min.js"></script>
+</body>
+</html>
