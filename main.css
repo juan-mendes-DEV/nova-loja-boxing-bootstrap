@@ -1,20 +1,22 @@
 body{
     overflow-x: hidden;
-    background-color: rgb(161, 161, 161);
+    background-color: rgb(255, 255, 255);
 }
 header{
     position: sticky;
     top: 0;
     left: 0;
-    background-image:linear-gradient(50deg,rgb(41, 248, 255),rgb(0, 162, 255)) ;
+    background-image:linear-gradient(50deg,black,lime) ;
     color: aliceblue;
 }
 section{
     padding-top: 70px;
 }
-
+a{
+    color: white;
+}
 a:hover{
-    background-color: azure;
+    background-color: rgb(133, 133, 133);
 }
 
 h5,p,h1{
@@ -32,7 +34,7 @@ img{
     margin-bottom:110px ;
 }
 .footer{
-    background-image:linear-gradient(50deg,rgb(41, 248, 255),rgb(0, 162, 255)) ;
+    background-image:linear-gradient(50deg,black,lime) ;
     color: aliceblue;
     padding: 15px;
     bottom: 0;
