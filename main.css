@@ -7,6 +7,7 @@ header{
     top: 0;
     left: 0;
     background-image:linear-gradient(50deg,rgb(41, 248, 255),rgb(0, 162, 255)) ;
+    color: aliceblue;
 }
 section{
     padding-top: 70px;
@@ -32,6 +33,11 @@ img{
 }
 .footer{
     background-image:linear-gradient(50deg,rgb(41, 248, 255),rgb(0, 162, 255)) ;
+    color: aliceblue;
     padding: 15px;
     bottom: 0;
+}
+#contato{
+    background-image: url("./img/boxer-2894025_1280.jpg");
+    max-width: 100%;
 }
