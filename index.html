@@ -86,7 +86,7 @@
             </button>
         </div> 
     </div>
-    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+    <div class="container-fluid" data-bs-spy="scroll" data-bs-target="#cabecalho">
     
     <section id="inicio" class="m-0 pt-3 pb-0 text-dark">
         
@@ -296,10 +296,10 @@
     <br>
     <section id="contato">
         
-            <div class="container pb-5">
+            <div class="container ">
                 
-                <div class="row">
-                    <div class="col-xs-12 col-lg-12 text-white py-5 ">
+                <div class="row ">
+                    <div class="col-xs-12 col-lg-12 text-white  ">
                         <article class="card ">
                         <header class="card-header text-white">
                             Se cadastre em nosso site
@@ -308,17 +308,17 @@
                         <img src="./img/boxer-2894025_1280.jpg" alt="imagem de fundo"   >
                         <div class="card-img-overlay p-0 m-0">
                         <form class="pt-5 mx-5 text-warning " style="display: flex; flex-direction: column; justify-content: space-around; ">
-                            <label class="form-label" for="nome">seu nome:</label>
-                            <input type="text" class="form-control ">
-                            <label class="form-label" for="email">seu email:</label>
-                            <input type="email" class="form-control">
-                            <label class="form-label" for="mensagem">sua mensagem:</label>
-                            <textarea id="mensagem" class="form-control"></textarea>
-                            <div class="form-check form-switch">
+                            
+                            <input placeholder="seu nome:" type="text" class="form-control " style="height: 20px; width: 50%; margin: 2px;">
+                            
+                            <input placeholder="seu email:" type="email" class="form-control" style="height: 20px; width: 50%; margin: 2px;">
+                            
+                            <textarea placeholder="sua mensagem" id="mensagem" class="form-control" style="height: 20px; width: 50%; margin: 2px;"></textarea>
+                            <div class="form-check form-switch " style="height: 20px; width: 50%; margin: 2px;">
                                 <label class="form-check-label" for="aceitoTermos">Li e concordo com os termos do site</label>
                                 <input class="form-check-input" id="aceitoTermos" type="checkbox">
                             </div>
-                            <button class="btn btn-success mt-3">enviar</button>
+                            <button class="btn btn-success mt-4 " style="width: 50%;">enviar</button>
                         </form>
                     </div>
                     </article>
@@ -328,7 +328,7 @@
         
     </section>
 </div>
-<div class="row footer mt-5">
+<div class="row footer ">
     <div class="col-12">
         <footer class="bg-text-white">
             <h5>2023 - todos os direitos reservados &copy;</h5>
