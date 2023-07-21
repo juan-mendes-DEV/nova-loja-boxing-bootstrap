@@ -35,6 +35,10 @@ img{
     padding-top:0 ;
     margin-bottom:110px ;
 }
+.container-fluid #contato > #formulario{
+    display: flex;
+    
+}
 h1 #titulo1{
     text-shadow: 2px solid black;
 

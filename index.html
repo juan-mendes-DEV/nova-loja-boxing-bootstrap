@@ -299,29 +299,35 @@
             <div class="container ">
                 
                 <div class="row ">
-                    <div class="col-xs-12 col-lg-12 text-white  ">
-                        <article class="card ">
-                        <header class="card-header text-white">
-                            Se cadastre em nosso site
-                        </header>
+                    <div class="col-xs-12 col-lg-6 text-white d-flex justify-content-center flex-wrap m-auto  ">
                         
-                        <img src="./img/boxer-2894025_1280.jpg" alt="imagem de fundo"   >
-                        <div class="card-img-overlay p-0 m-0">
-                        <form class="pt-5 mx-5 text-warning " style="display: flex; flex-direction: column; justify-content: space-around; ">
-                            
-                            <input placeholder="seu nome:" type="text" class="form-control " style="height: 20px; width: 50%; margin: 2px;">
-                            
-                            <input placeholder="seu email:" type="email" class="form-control" style="height: 20px; width: 50%; margin: 2px;">
-                            
-                            <textarea placeholder="sua mensagem" id="mensagem" class="form-control" style="height: 20px; width: 50%; margin: 2px;"></textarea>
-                            <div class="form-check form-switch " style="height: 20px; width: 50%; margin: 2px;">
-                                <label class="form-check-label" for="aceitoTermos">Li e concordo com os termos do site</label>
-                                <input class="form-check-input" id="aceitoTermos" type="checkbox">
+                        
+                        <form id="formulario" class=" text-warning bg-dark mx-5 pb-5" style="display: flex; flex-direction: column;  justify-content:center;  background-image: url(./img/boxer-2894025_1280.jpg); background-size: 400px 500px; background-repeat: no-repeat;  ">
+                            <header>
+                                se cadastre em nosso site
+                            </header>
+                            <label for="name" class=" d-flex justify-content-center">seu nome:</label>
+
+                            <input placeholder="seu nome:" type="text" class="d-flex align-center" style="height: 20px; width: 80%; margin: 2px; margin-left: 35px;">
+
+                            <label for="email" class=" d-flex justify-content-center">seu email:</label>
+
+                            <input placeholder="seu email:" type="email" class="  d-flex justify-content-center" style="height: 20px; width: 80%; margin: 2px; margin-left: 35px;">
+
+                            <label for="mensagem" class=" d-flex justify-content-center">sua mensagem:</label>
+
+                            <textarea placeholder="sua mensagem" id="mensagem" class=" d-flex justify-content-center" style="height: 20px; width: 80%; margin: 2px; margin-left: 35px; margin-bottom: 30px;"></textarea>
+
+                            <div class="form-check form-switch d-flex justify-content-center" style="height: 20px;  margin: 4px;">
+
+                                <label class=" mt-0  text-info " for="aceitoTermos" >Li e concordo com os termos do site</label>
+
+                                <input  id="aceitoTermos" type="checkbox" >
                             </div>
-                            <button class="btn btn-success mt-4 " style="width: 50%;">enviar</button>
+                            <button class="btn btn-success mt-5 d-flex justify-content-center" style="width: 50%; margin-left: 90px; margin-top: 15px;">enviar</button>
                         </form>
                     </div>
-                    </article>
+                    
                     </div>
                 </div>
             </div>
